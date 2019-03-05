@@ -28,5 +28,25 @@ h1{
   text-transform: capitalize;
   text-align: center;
   font-weight: 400;
-  
+
+}
+.zoom p{
+  opacity: 0;
+}
+.zoom{
+  overflow: hidden;
+
+}
+.zoom{
+  transition: 0.75s;
+}
+.zoom:hover{
+  transform: scale(1.1);
+
+}
+.zoom:hover p{
+  opacity: 1;
+}
+#h3{
+  position: relative;
 }
