@@ -52,3 +52,27 @@ h1{
 #h3{
   position: relative;
 }
+#card4{
+  background-image: url("../images/card4bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*house css*/
+
+.background{
+  background-image: url("../images/housebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.overlay1{
+  height: 15rem;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+}
+#house{
+  background-color: black;
+}
