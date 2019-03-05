@@ -42,11 +42,16 @@ h1{
 }
 .zoom:hover{
   transform: scale(1.1);
-
+  box-shadow: 5px 5px 5px black -5px -5px 5px black;
+  -webkit-box-shadow:5px 5px 5px black;
 }
 .zoom:hover p{
   opacity: 1;
 }
 #h3{
   position: relative;
+}
+#icon{
+  font-size: 20px;
+  color: white;
 }
