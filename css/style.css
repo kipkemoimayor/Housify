@@ -1,0 +1,7 @@
+#next,#prev{
+  
+}
+.carousel-item img{
+  width: 100%;
+  height: 655px;// for which a media query will be set
+}
