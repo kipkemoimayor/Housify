@@ -1,7 +1,41 @@
+<<<<<<< HEAD
 body
 {
   margin: 0;
   padding: 0;
   background-size: cover;
   font-family: sans-serif;
+=======
+#row{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.overlay{
+  height: 30rem;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.3);
+  width: 100%;
+}
+.navbar-brand img{
+  height: 50px;
+  width: 50px;
+}
+#nav a{
+  color: white;
+
+}
+#drop {
+  background-color: rgba(0,0,0,0.2);
+}
+#drop a:hover{
+  color: black;
+}
+h1{
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 400;
+  
+>>>>>>> upstream/development
 }
