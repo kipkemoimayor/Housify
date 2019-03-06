@@ -42,6 +42,8 @@ h1{
 }
 .zoom:hover{
   transform: scale(1.1);
+  box-shadow: 5px 5px 5px black -5px -5px 5px black;
+  -webkit-box-shadow:5px 5px 5px black;
 
 }
 .zoom:hover p{
@@ -49,4 +51,28 @@ h1{
 }
 #h3{
   position: relative;
+}
+#card4{
+  background-image: url("../images/card4bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*house css*/
+
+.background{
+  background-image: url("../images/housebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.overlay1{
+  height: 15rem;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+}
+#house{
+  background-color: black;
 }
