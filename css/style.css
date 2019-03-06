@@ -1,7 +1,13 @@
 #next,#prev{
-  
+
 }
-.carousel-item img{
-  width: 100%;
+.carousel-item{
+  width: 80%;
   height: 655px;// for which a media query will be set
+
+}
+.carousel-inner{
+  margin-left: 11%;
+  background-color: black;
+
 }
