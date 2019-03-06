@@ -78,4 +78,40 @@ h1{
 }
 #cori img{
   height: 30rem;
+
 }
+.carousel-inner{
+    background-color: rgba(0,0,0,0.5);
+    height: 30rem;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 600px;
+}
+
+.captions{
+  font-weight: bolder;
+  font-size: 150%;
+  background-color:rgba(0,0,0,0.3) ;
+
+}
+@media only screen and(max-width: 760px)  {
+  .carousel-item{
+    height: 800px;
+  }
+  .captions{
+    font-style: x-small;
+  }
