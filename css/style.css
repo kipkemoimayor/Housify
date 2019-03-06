@@ -4,12 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.overlay{
-  height: 30rem;
-  z-index: 3;
-  background-color: rgba(0,0,0,0.3);
-  width: 100%;
-}
+
 .navbar-brand img{
   height: 50px;
   width: 50px;
@@ -67,12 +62,7 @@ h1{
   background-position: center;
   background-attachment: fixed;
 }
-.overlay1{
-  height: 15rem;
-  z-index: 3;
-  background-color: rgba(0,0,0,0.4);
-  width: 100%;
-}
+
 #house{
   background-color: black;
 }
@@ -87,16 +77,13 @@ h1{
 }
 
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel-control-prev,.carousel-control-next {
   width: 15%;
 }
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
   display: inline-block;
-  width: 800px;
-  height: 800px;
   background-color: black;
   border-radius: 50%;
   font-size: 600px;
@@ -116,5 +103,17 @@ h1{
     font-style: x-small;
   }
   .favo{
+    display: none;
+  }
+}
+  /* Dashboard here-*/
+
+  #dash{
+    display: none;
+  }
+  .favourite{
+    display: none;;
+  }
+  .house-for-sale{
     display: none;
   }
