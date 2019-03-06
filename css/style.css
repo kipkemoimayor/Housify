@@ -44,13 +44,22 @@ h1{
   transform: scale(1.1);
   box-shadow: 5px 5px 5px black -5px -5px 5px black;
   -webkit-box-shadow:5px 5px 5px black;
-
 }
 .zoom:hover p{
   opacity: 1;
 }
 #h3{
   position: relative;
+}
+
+#icon{
+  font-size: 20px;
+  color: white;
+}
+#image-card{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #card4{
   background-image: url("../images/card4bg.jpg");
@@ -75,6 +84,7 @@ h1{
 }
 #house{
   background-color: black;
+
 }
 #cori img{
   height: 30rem;
