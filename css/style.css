@@ -1,7 +1,78 @@
-#next,#prev{
-  
+#row{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.carousel-item img{
+.overlay{
+  height: 30rem;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.3);
   width: 100%;
-  height: 655px;// for which a media query will be set
+}
+.navbar-brand img{
+  height: 50px;
+  width: 50px;
+}
+#nav a{
+  color: white;
+
+}
+#drop {
+  background-color: rgba(0,0,0,0.2);
+}
+#drop a:hover{
+  color: black;
+}
+h1{
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 400;
+
+}
+.zoom p{
+  opacity: 0;
+}
+.zoom{
+  overflow: hidden;
+
+}
+.zoom{
+  transition: 0.75s;
+}
+.zoom:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black -5px -5px 5px black;
+  -webkit-box-shadow:5px 5px 5px black;
+
+}
+.zoom:hover p{
+  opacity: 1;
+}
+#h3{
+  position: relative;
+}
+#card4{
+  background-image: url("../images/card4bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*house css*/
+
+.background{
+  background-image: url("../images/housebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.overlay1{
+  height: 15rem;
+  z-index: 3;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+}
+#house{
+  background-color: black;
 }
