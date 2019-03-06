@@ -1,5 +1,5 @@
 #row{
-  background-image: url("../images/bg.jpg");
+  background-color: ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -75,4 +75,7 @@ h1{
 }
 #house{
   background-color: black;
+}
+#cori img{
+  height: 30rem;
 }
