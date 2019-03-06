@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-body
-{
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  font-family: sans-serif;
-=======
 #row{
   background-image: url("../images/bg.jpg");
   background-size: cover;
@@ -36,6 +28,6 @@ h1{
   text-transform: capitalize;
   text-align: center;
   font-weight: 400;
-  
+
 >>>>>>> upstream/development
 }
