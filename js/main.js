@@ -1,7 +1,8 @@
 $(document).ready(function() {
   $(".zoom").mouseover(function(){
-    $("")
-    $("#h3").animate({
+    $(".para").fadeIn(200);
+    $(".para").animate({
+      transition:"300ms"
 
     })
   })
