@@ -463,10 +463,7 @@ $("#showme").click(function(){
     $("."+favo).show();
 
   })
-  $(".house-for-sale").hide();
-  $("#location").hide();
-  $("#housesize").hide();
-  $("#budget").hide()
+
 
 })
 //cards
@@ -495,6 +492,8 @@ $("#logout").click(function(){
   $(".home").hide();
   $(".house-for-sale").hide();
   $("#location").hide();
+  $("#budget").hide();
+  $("#housesize").hide();
 
 })
 
