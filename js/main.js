@@ -275,6 +275,83 @@ $("#d12").click(function(){
   alert(favourites)
 
 });
+$("#f").click(function(){
+  takeId(g)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f1").click(function(){
+  takeId(g1)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f2").click(function(){
+  takeId(g2)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f3").click(function(){
+  takeId(g3)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f4").click(function(){
+  takeId(g4)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f5").click(function(){
+  takeId(g5)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f6").click(function(){
+  takeId(g6)
+  favourites.push(n)
+  alert(favourites)
+
+});$("#f").click(function(){
+  takeId(g)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f7").click(function(){
+  takeId(g7)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f8").click(function(){
+  takeId(g8)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f9").click(function(){
+  takeId(g9)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f10").click(function(){
+  takeId(g10)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#f11").click(function(){
+  takeId(g11)
+  favourites.push(n)
+  alert(favourites)
+
+});
 
 
 
@@ -291,6 +368,7 @@ $("#showme").click(function(){
 
   })
 })
+//cards
 $("#houseforsale").click(function(){
     $(".home").hide();
     $(".house-for-sale").show();
@@ -307,6 +385,7 @@ $("#login").click(function(){
   $(".house-for-sale").hide();
   $("#location").hide();
   $("#housesize").hide();
+  $("#budget").hide();
 
 
 });
@@ -324,6 +403,10 @@ $("#clickLocation").click(function(){
   $("#dash").hide();
   $(".home").hide();
   $("#box").hide();
+  $(".house-for-sale").hide();
+  $("#housesize").hide();
+  $(".house-for-sale").hide();
+  $("#budget").hide();
 
 })
 $("#clickSale").click(function(){
@@ -331,12 +414,43 @@ $("#clickSale").click(function(){
   $("#dash").hide();
   $(".home").hide();
   $("#box").hide();
+  $("#housesize").hide();
+  $("#location").hide();
+  $("#budget").hide();
 
 })
 $("#houseSize").click(function(){
   $(".home").hide();
   $("#housesize").show();
   $("#box").hide();
+
+
+})
+$("#budgetClick").click(function () {
+  $("#budget").show();
+  $(".home").hide();
+
+
+});
+$("#clickPrice").click(function(){
+  $("#budget").show();
+  $("#dash").hide();
+  $(".home").hide();
+  $("#box").hide();
+  $("#housesize").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
+
+
+})
+$("#clickSize").click(function(){
+  $("#housesize").show();
+  $("#dash").hide();
+  $(".home").hide();
+  $("#box").hide();
+  $("#budget").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
 
 
 })
