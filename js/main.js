@@ -29,7 +29,7 @@ $(document).ready(function() {
 
 
 
-  
+
 
 
 
@@ -225,12 +225,14 @@ $("#clickLocation").click(function(){
   $("#location").show();
   $("#dash").hide();
   $(".home").hide();
+  $(".box").hide();
 
 })
 $("#clickSale").click(function(){
   $(".house-for-sale").show();
   $("#dash").hide();
   $(".home").hide();
+  $(".box").hide();
 
 })
 
