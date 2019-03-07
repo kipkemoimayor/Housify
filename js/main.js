@@ -368,6 +368,7 @@ $("#showme").click(function(){
 
   })
 })
+//cards
 $("#houseforsale").click(function(){
     $(".home").hide();
     $(".house-for-sale").show();
@@ -402,6 +403,10 @@ $("#clickLocation").click(function(){
   $("#dash").hide();
   $(".home").hide();
   $("#box").hide();
+  $(".house-for-sale").hide();
+  $("#housesize").hide();
+  $(".house-for-sale").hide();
+  $("#budget").hide();
 
 })
 $("#clickSale").click(function(){
@@ -409,6 +414,9 @@ $("#clickSale").click(function(){
   $("#dash").hide();
   $(".home").hide();
   $("#box").hide();
+  $("#housesize").hide();
+  $("#location").hide();
+  $("#budget").hide();
 
 })
 $("#houseSize").click(function(){
@@ -424,6 +432,28 @@ $("#budgetClick").click(function () {
 
 
 });
+$("#clickPrice").click(function(){
+  $("#budget").show();
+  $("#dash").hide();
+  $(".home").hide();
+  $("#box").hide();
+  $("#housesize").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
+
+
+})
+$("#clickSize").click(function(){
+  $("#housesize").show();
+  $("#dash").hide();
+  $(".home").hide();
+  $("#box").hide();
+  $("#budget").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
+
+
+})
 
 
 
