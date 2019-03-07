@@ -62,12 +62,12 @@
 
 /* this part is the former style of the slogan */
 
-/* h1{
+ h1{
   text-transform: capitalize;
   text-align: center;
   font-weight: 400;
 
-} */
+}
 .zoom p{
   opacity: 0;
 }
@@ -221,7 +221,7 @@
 body{
   background-color: #fff;
 }*/
-p.card-text
+/*p.card-text
 {
   opacity: 0;
   margin-bottom: -50px;
@@ -231,7 +231,7 @@ p.card-text:hover
   opacity: 1;
   transition: 1s;
   margin-bottom: 20px;
-}
+}*/
 #badar:hover
 {
   opacity: 0.5;
