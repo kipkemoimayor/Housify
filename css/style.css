@@ -363,3 +363,6 @@ p.card-text:hover
 #pad{
   padding-top: 3%;
 }
+#budget{
+  display: none;
+}

@@ -340,6 +340,12 @@ $("#houseSize").click(function(){
 
 
 })
+$("#budgetClick").click(function () {
+  $("#budget").show();
+  $(".home").hide();
+
+
+});
 
 
 
