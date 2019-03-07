@@ -8,6 +8,20 @@ function takeId(elt){
 }
 
 
+// user logic
+function clearAll(){
+  $(".home").show();
+  $("#housesize").hide();
+  $("#dash").hide();
+
+  $("#box").hide();
+  $("#budget").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
+
+}
+
+
 $(document).ready(function() {
 //login starts here
 
@@ -35,6 +49,11 @@ $(document).ready(function() {
       savePassword.push(userName,password);
 
   });
+  $("#del").click(function(){
+    favourites.length=0;
+    $(".favourite").hide();
+
+  })
 
 
   $("#log").click(function(){
@@ -139,92 +158,92 @@ $("#prac9").click(function(){
   $("#prac9").css("color","red")
 
 });
-$("#a").click(function(){
-  takeId(b)
+$("#b").click(function(){
+  takeId(a)
   favourites.push(n)
-  $("#prac10").text("added")
-  $("#prac10").css("color","red")
+  $("#b").text("added")
+  $("#b").css("color","red")
 
 });
-$("#a1").click(function(){
-  takeId(b2)
+$("#b1").click(function(){
+  takeId(a1)
   favourites.push(n)
-  $("#a1").text("added")
-  $("#a1").css("color","red")
+  $("#b1").text("added")
+  $("#b1").css("color","red")
 
 });
-$("#a2").click(function(){
-  takeId(b2)
+$("#b2").click(function(){
+  takeId(a2)
   favourites.push(n)
-  $("#a2").text("added")
-  $("#a2").css("color","red")
+  $("#b2").text("added")
+  $("#b2").css("color","red")
 
 });
-$("#a3").click(function(){
-  takeId(b3)
+$("#b3").click(function(){
+  takeId(a3)
   favourites.push(n)
-  $("#a3").text("added")
-  $("#a3").css("color","red")
+  $("#b3").text("added")
+  $("#b3").css("color","red")
 
 });
-$("#a4").click(function(){
-  takeId(b4)
+$("#b4").click(function(){
+  takeId(a4)
   favourites.push(n)
-  $("#a4").text("added")
-  $("#a4").css("color","red")
+  $("#b4").text("added")
+  $("#b4").css("color","red")
 
 });
-$("#a5").click(function(){
-  takeId(b5)
+$("#b5").click(function(){
+  takeId(a5)
   favourites.push(n)
-  $("#a5").text("added")
-  $("#a5").css("color","red")
+  $("#b5").text("added")
+  $("#b5").css("color","red")
 
 });
-$("#a6").click(function(){
-  takeId(b6)
+$("#b6").click(function(){
+  takeId(a6)
   favourites.push(n)
-  $("#a6").text("added")
-  $("#a6").css("color","red")
-
-
-});
-$("#a7").click(function(){
-  takeId(b7)
-  favourites.push(n)
-  $("#a7").text("added")
-  $("#a7").css("color","red")
+  $("#b6").text("added")
+  $("#b6").css("color","red")
 
 
 });
-$("#a8").click(function(){
-  takeId(b8)
+$("#b7").click(function(){
+  takeId(a7)
   favourites.push(n)
-  $("#a8").text("added")
-  $("#a8").css("color","red")
+  $("#b7").text("added")
+  $("#b7").css("color","red")
 
 
 });
-$("#a9").click(function(){
-  takeId(b9)
+$("#b8").click(function(){
+  takeId(a8)
   favourites.push(n)
-  $("#a9").text("added")
-  $("#a9").css("color","red")
+  $("#b8").text("added")
+  $("#b8").css("color","red")
 
 
 });
-$("#a10").click(function(){
-  takeId(b11)
+$("#b9").click(function(){
+  takeId(a9)
+  favourites.push(n)
+  $("#b9").text("added")
+  $("#b9").css("color","red")
+
+
+});
+$("#b10").click(function(){
+  takeId(a10)
   favourites.push(n)
   $("#a10").text("added")
   $("#a10").css("color","red")
 
 });
-$("#a11").click(function(){
-  takeId(b11)
+$("#b11").click(function(){
+  takeId(a11)
   favourites.push(n)
-  $("#a11").text("added")
-  $("#a11").css("color","red")
+  $("#b11").text("added")
+  $("#b11").css("color","red")
 
 
 });
@@ -444,6 +463,11 @@ $("#showme").click(function(){
     $("."+favo).show();
 
   })
+  $(".house-for-sale").hide();
+  $("#location").hide();
+  $("#housesize").hide();
+  $("#budget").hide()
+
 })
 //cards
 $("#houseforsale").click(function(){
@@ -530,6 +554,12 @@ $("#clickSize").click(function(){
   $(".house-for-sale").hide();
 
 
+})
+$("#navClick").click(function(){
+  clearAll();
+})
+$("#navbarClick").click(function(){
+  clearAll();
 })
 
 
