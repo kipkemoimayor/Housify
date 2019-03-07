@@ -78,7 +78,10 @@ h1{
 }
 #cori img{
   height: 40rem;
+}
 
+#pad{
+  padding-top: 10%;
 }
 .carousel-inner{
     background-color: rgba(0,0,0,0.5);
