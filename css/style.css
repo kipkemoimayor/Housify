@@ -24,12 +24,55 @@
 #drop a:hover{
   color: black;
 }
-h1{
+
+.text1
+{
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-size: 60px;
+  color: white;
+}
+.text2
+{
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-top: -50px;
+}
+
+/* this is a style that made text move around. i commented them out bcz of complexity */
+
+/* @keyframes text {
+  0%{
+    color: black;
+    margin-bottom: 40px
+  }
+  30%{
+    letter-spacing: 30px;
+    margin-bottom: 40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+  } */
+
+
+/* this part is the former style of the slogan */
+
+/* h1{
   text-transform: capitalize;
   text-align: center;
   font-weight: 400;
 
-}
+} */
 .zoom p{
   opacity: 0;
 }
@@ -171,6 +214,34 @@ h1{
   background-color:rgba(0,0,0,0.3) ;
 
 }
+
+.container-fluid
+{
+  padding-top: 3%;
+}
+.card
+{
+  background-color: #fef6ff;
+}
+body{
+  background-color: #fff;
+}
+p.card-text
+{
+  opacity: 0;
+  margin-bottom: -50px;
+}
+p.card-text:hover
+{
+  opacity: 1;
+  transition: 1s;
+  margin-bottom: 20px;
+}
+#badar:hover
+{
+  opacity: 0.5;
+}
+
 @media only screen and(max-width: 760px)  {
   .carousel-item{
     height: 800px;
@@ -178,3 +249,4 @@ h1{
   .captions{
     font-style: x-small;
   }
+
