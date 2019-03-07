@@ -206,7 +206,7 @@ $("#showlocation").click(function(){
 
 });
 $("#login").click(function(){
-  $(".box").show();
+  $("#box").show();
   $(".home").hide();
   $(".house-for-sale").hide();
   $("#location").hide();
@@ -225,14 +225,14 @@ $("#clickLocation").click(function(){
   $("#location").show();
   $("#dash").hide();
   $(".home").hide();
-  $(".box").hide();
+  $("#box").hide();
 
 })
 $("#clickSale").click(function(){
   $(".house-for-sale").show();
   $("#dash").hide();
   $(".home").hide();
-  $(".box").hide();
+  $("#box").hide();
 
 })
 

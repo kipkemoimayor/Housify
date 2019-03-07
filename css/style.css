@@ -125,8 +125,11 @@ h1{
 #login{
   float: right;
 }
+#box{
+  display: none;
+}
 .box{
-   display: none;
+  
    top: 30%;
    right: 30%;
    width: 400px;
@@ -212,3 +215,6 @@ h1{
   height: 26.3rem;
 }
 /* login*/
+.refusehide{
+
+}
