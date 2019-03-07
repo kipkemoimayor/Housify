@@ -1,5 +1,5 @@
 #row{
-  background-image: url("../images/bg.jpg");
+  background-color: ;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -87,13 +87,22 @@
   transform: scale(1.1);
   box-shadow: 5px 5px 5px black -5px -5px 5px black;
   -webkit-box-shadow:5px 5px 5px black;
-
 }
 .zoom:hover p{
   opacity: 1;
 }
 #h3{
   position: relative;
+}
+
+#icon{
+  font-size: 20px;
+  color: white;
+}
+#image-card{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #card4{
   background-image: url("../images/card4bg.jpg");
@@ -118,7 +127,94 @@
 }
 #house{
   background-color: black;
+
 }
+#cori img{
+  height: 40rem;
+}
+
+#pad{
+  padding-top: 10%;
+}
+.carousel-inner{
+    background-color: rgba(0,0,0,0.5);
+    height: 30rem;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 600px;
+}
+
+.captions{
+  font-weight: bolder;
+  font-size: 100%;
+  background-color:rgba(0,0,0,0.3) ;
+  position: absolute;
+  right: 15%;
+  bottom: 180px;
+  left: 15%;
+  z-index: 10;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  color: #fff;
+  text-align: center;
+
+}
+@media only screen and(max-width: 760px)  {
+  .carousel-item{
+    height: 30rem;
+  }
+  .captions{
+    font-style: x-small;
+  }
+#butn:hover{
+  color: black;
+  background-color: #04C6C6;
+}
+
+}
+.carousel-inner{
+    background-color: rgba(0,0,0,0.5);
+    height: 30rem;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 600px;
+}
+
+.captions{
+  font-weight: bolder;
+  font-size: 150%;
+  background-color:rgba(0,0,0,0.3) ;
+
+}
+
 .container-fluid
 {
   padding-top: 3%;
@@ -145,3 +241,12 @@ p.card-text:hover
 {
   opacity: 0.5;
 }
+
+@media only screen and(max-width: 760px)  {
+  .carousel-item{
+    height: 800px;
+  }
+  .captions{
+    font-style: x-small;
+  }
+
