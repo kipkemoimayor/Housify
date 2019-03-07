@@ -366,3 +366,12 @@ p.card-text:hover
 #budget{
   display: none;
 }
+/*map*/
+#rounded-circle {
+  height: 100px;
+  width: 100px;
+}
+.ll{
+  margin: auto;
+  width: 50%;
+}
