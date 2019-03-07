@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 favourites=[];
 function takeId(elt){
@@ -239,3 +240,5 @@ $("#clickSale").click(function(){
 
 
 });
+=======
+>>>>>>> Added js function delete user
