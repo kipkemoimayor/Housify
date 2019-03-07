@@ -4,9 +4,23 @@ var savePassword=[];
 favourites=[];
 function takeId(elt){
    n=elt.id
-  document.getElementById('dis').innerHTML=n;
 
 }
+
+
+// user logic
+function clearAll(){
+  $(".home").show();
+  $("#housesize").hide();
+  $("#dash").hide();
+
+  $("#box").hide();
+  $("#budget").hide();
+  $("#location").hide();
+  $(".house-for-sale").hide();
+
+}
+
 
 $(document).ready(function() {
 //login starts here
@@ -35,6 +49,11 @@ $(document).ready(function() {
       savePassword.push(userName,password);
 
   });
+  $("#del").click(function(){
+    favourites.length=0;
+    $(".favourite").hide();
+
+  })
 
 
   $("#log").click(function(){
@@ -78,278 +97,355 @@ $(document).ready(function() {
 $("#prac1").click(function(){
   takeId(hi3)
   favourites.push(n)
-  alert(favourites)
+  $("#prac").text("added")
+  $("#prac1").css("color","red")
 
 });
 $("#prac2").click(function(){
   takeId(hi4)
   favourites.push(n)
-  alert(favourites)
+  $("#prac2").text("added")
+  $("#prac2").css("color","red")
 
 });
 $("#prac3").click(function(){
   takeId(hi5)
   favourites.push(n)
-  alert(favourites)
+  $("#prac3").text("added")
+  $("#prac3").css("color","red")
 
 });
 $("#prac4").click(function(){
   takeId(hi6)
   favourites.push(n)
-  alert(favourites)
+  $("#prac4").text("added")
+  $("#prac4").css("color","red")
 
 });
 $("#prac5").click(function(){
   takeId(hi7)
   favourites.push(n)
-  alert(favourites)
+  $("#prac5").text("added")
+  $("#prac5").css("color","red")
 
 });
 $("#prac6").click(function(){
   takeId(hi8)
   favourites.push(n)
-  alert(favourites)
+  $("#prac6").text("added")
+  $("#prac6").css("color","red")
 
 });
 $("#prac7").click(function(){
   takeId(hi9)
   favourites.push(n)
-  alert(favourites)
+  $("#prac7").text("added")
+  $("#prac7").css("color","red")
 
 });
 $("#prac8").click(function(){
   takeId(hi11)
   favourites.push(n)
-  alert(favourites)
+  $("#prac8").text("added")
+  $("#prac8").css("color","red")
 
 });
 $("#prac9").click(function(){
   takeId(hi12)
   favourites.push(n)
   alert(favourites)
+  $("#prac9").text("added")
+  $("#prac9").css("color","red")
 
 });
-$("#a").click(function(){
-  takeId(b)
+$("#b").click(function(){
+  takeId(a)
   favourites.push(n)
-  alert(favourites)
+  $("#b").text("added")
+  $("#b").css("color","red")
 
 });
-$("#a1").click(function(){
-  takeId(b2)
+$("#b1").click(function(){
+  takeId(a1)
   favourites.push(n)
-  alert(favourites)
+  $("#b1").text("added")
+  $("#b1").css("color","red")
 
 });
-$("#a2").click(function(){
-  takeId(b2)
+$("#b2").click(function(){
+  takeId(a2)
   favourites.push(n)
-  alert(favourites)
+  $("#b2").text("added")
+  $("#b2").css("color","red")
 
 });
-$("#a3").click(function(){
-  takeId(b3)
+$("#b3").click(function(){
+  takeId(a3)
   favourites.push(n)
-  alert(favourites)
+  $("#b3").text("added")
+  $("#b3").css("color","red")
 
 });
-$("#a4").click(function(){
-  takeId(b4)
+$("#b4").click(function(){
+  takeId(a4)
   favourites.push(n)
-  alert(favourites)
+  $("#b4").text("added")
+  $("#b4").css("color","red")
 
 });
-$("#a5").click(function(){
-  takeId(b5)
+$("#b5").click(function(){
+  takeId(a5)
   favourites.push(n)
-  alert(favourites)
+  $("#b5").text("added")
+  $("#b5").css("color","red")
 
 });
-$("#a6").click(function(){
-  takeId(b6)
+$("#b6").click(function(){
+  takeId(a6)
   favourites.push(n)
-  alert(favourites)
+  $("#b6").text("added")
+  $("#b6").css("color","red")
+
 
 });
-$("#a7").click(function(){
-  takeId(b7)
+$("#b7").click(function(){
+  takeId(a7)
   favourites.push(n)
-  alert(favourites)
+  $("#b7").text("added")
+  $("#b7").css("color","red")
+
 
 });
-$("#a8").click(function(){
-  takeId(b8)
+$("#b8").click(function(){
+  takeId(a8)
   favourites.push(n)
-  alert(favourites)
+  $("#b8").text("added")
+  $("#b8").css("color","red")
+
 
 });
-$("#a9").click(function(){
-  takeId(b9)
+$("#b9").click(function(){
+  takeId(a9)
   favourites.push(n)
-  alert(favourites)
+  $("#b9").text("added")
+  $("#b9").css("color","red")
+
 
 });
-$("#a10").click(function(){
-  takeId(b11)
+$("#b10").click(function(){
+  takeId(a10)
   favourites.push(n)
-  alert(favourites)
+  $("#a10").text("added")
+  $("#a10").css("color","red")
 
 });
-$("#a11").click(function(){
-  takeId(b11)
+$("#b11").click(function(){
+  takeId(a11)
   favourites.push(n)
-  alert(favourites)
+  $("#b11").text("added")
+  $("#b11").css("color","red")
+
 
 });
 //by Size
 $("#d").click(function(){
   takeId(e)
   favourites.push(n)
-  alert(favourites)
+  $("#d").text("added")
+  $("#d").css("color","red")
+
 
 });
 $("#d1").click(function(){
   takeId(e1)
-  favourites.push(n)
-  alert(favourites)
+  favourites.push(n);
+  $("#d1").text("added")
+  $("#d1").css("color","red")
+
 
 });
 $("#d3").click(function(){
   takeId(e2)
   favourites.push(n)
-  alert(favourites)
+  $("#d3").text("added")
+  $("#d3").css("color","red")
+
 
 });
 
 $("#d4").click(function(){
   takeId(e3)
   favourites.push(n)
-  alert(favourites)
+  $("#d4").text("added")
+  $("#d4").css("color","red")
+
 
 });
 $("#d5").click(function(){
   takeId(e4)
   favourites.push(n)
-  alert(favourites)
+  $("#d5").text("added")
+  $("#d5").css("color","red")
+
 
 });
 $("#d6").click(function(){
   takeId(e5)
   favourites.push(n)
-  alert(favourites)
+  $("#d6").text("added")
+  $("#d6").css("color","red")
+
 
 });
 $("#d7").click(function(){
   takeId(e6)
   favourites.push(n)
-  alert(favourites)
+  $("#d7").text("added")
+  $("#d7").css("color","red")
+
 
 });
 $("#d8").click(function(){
   takeId(e7)
   favourites.push(n)
-  alert(favourites)
+  $("#d8").text("added")
+  $("#d8").css("color","red")
+
 
 });
 $("#d9").click(function(){
   takeId(e8)
   favourites.push(n)
-  alert(favourites)
+  $("#d9").text("added")
+  $("#d9").css("color","red")
+
 
 });
 $("#d10").click(function(){
   takeId(e9)
   favourites.push(n)
-  alert(favourites)
+  $("#d10").text("added")
+  $("#d10").css("color","red")
+
 
 });
 $("#d11").click(function(){
   takeId(e10)
   favourites.push(n)
-  alert(favourites)
+  $("#d11").text("added")
+  $("#d11").css("color","red")
+
 
 });
 $("#d12").click(function(){
   takeId(e11)
   favourites.push(n)
-  alert(favourites)
+  $("#d12").text("added")
+  $("#d12").css("color","red")
+
 
 });
 $("#f").click(function(){
   takeId(g)
   favourites.push(n)
-  alert(favourites)
+  $("#f").text("added")
+  $("#f").css("color","red")
+
 
 });
 $("#f1").click(function(){
   takeId(g1)
   favourites.push(n)
-  alert(favourites)
+  $("#f1").text("added")
+  $("#f1").css("color","red")
+
 
 });
 $("#f2").click(function(){
   takeId(g2)
   favourites.push(n)
-  alert(favourites)
+  $("#f2").text("added")
+  $("#f2").css("color","red")
+
 
 });
 $("#f3").click(function(){
   takeId(g3)
   favourites.push(n)
-  alert(favourites)
+  $("#f3").text("added")
+  $("#f3").css("color","red")
+
 
 });
 $("#f4").click(function(){
   takeId(g4)
   favourites.push(n)
-  alert(favourites)
+  $("#f4").text("added")
+  $("#f4").css("color","red")
+
 
 });
 $("#f5").click(function(){
   takeId(g5)
   favourites.push(n)
-  alert(favourites)
+  $("#f5").text("added")
+  $("#f5").css("color","red")
+
 
 });
 $("#f6").click(function(){
   takeId(g6)
   favourites.push(n)
-  alert(favourites)
+  $("#f6").text("added")
+  $("#f6").css("color","red")
+
 
 });$("#f").click(function(){
   takeId(g)
   favourites.push(n)
-  alert(favourites)
+  $("#f7").text("added")
+  $("#f7").css("color","red")
+
 
 });
 $("#f7").click(function(){
   takeId(g7)
   favourites.push(n)
-  alert(favourites)
+  $("#f7").text("added")
+  $("#f7").css("color","red")
+
 
 });
 $("#f8").click(function(){
   takeId(g8)
   favourites.push(n)
-  alert(favourites)
+  $("#f8").text("added")
+  $("#f8").css("color","red")
+
 
 });
 $("#f9").click(function(){
   takeId(g9)
   favourites.push(n)
-  alert(favourites)
+  $("#f9").text("added")
+  $("#f9").css("color","red")
+
 
 });
 $("#f10").click(function(){
   takeId(g10)
   favourites.push(n)
-  alert(favourites)
+  $("#f10").text("added")
+  $("#f10").css("color","red")
+
 
 });
 $("#f11").click(function(){
   takeId(g11)
   favourites.push(n)
-  alert(favourites)
+  $("#f11").text("added")
+  $("#f11").css("color","red")
+
 
 });
 
@@ -367,6 +463,8 @@ $("#showme").click(function(){
     $("."+favo).show();
 
   })
+
+
 })
 //cards
 $("#houseforsale").click(function(){
@@ -394,6 +492,8 @@ $("#logout").click(function(){
   $(".home").hide();
   $(".house-for-sale").hide();
   $("#location").hide();
+  $("#budget").hide();
+  $("#housesize").hide();
 
 })
 
@@ -453,6 +553,12 @@ $("#clickSize").click(function(){
   $(".house-for-sale").hide();
 
 
+})
+$("#navClick").click(function(){
+  clearAll();
+})
+$("#navbarClick").click(function(){
+  clearAll();
 })
 
 
