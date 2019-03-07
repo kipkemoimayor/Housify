@@ -201,6 +201,89 @@ $("#a11").click(function(){
   alert(favourites)
 
 });
+//by Size
+$("#d").click(function(){
+  takeId(e)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d1").click(function(){
+  takeId(e1)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d3").click(function(){
+  takeId(e2)
+  favourites.push(n)
+  alert(favourites)
+
+});
+
+$("#d4").click(function(){
+  takeId(e3)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d5").click(function(){
+  takeId(e4)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d6").click(function(){
+  takeId(e5)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d7").click(function(){
+  takeId(e6)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d8").click(function(){
+  takeId(e7)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d9").click(function(){
+  takeId(e8)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d10").click(function(){
+  takeId(e9)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d11").click(function(){
+  takeId(e10)
+  favourites.push(n)
+  alert(favourites)
+
+});
+$("#d12").click(function(){
+  takeId(e11)
+  favourites.push(n)
+  alert(favourites)
+
+});
+
+
+
+
+
+
+
+
+
 
 $("#showme").click(function(){
   newFavourite=favourites.map(function(favo){
@@ -223,6 +306,8 @@ $("#login").click(function(){
   $(".home").hide();
   $(".house-for-sale").hide();
   $("#location").hide();
+  $("#housesize").hide();
+
 
 });
 $("#logout").click(function(){
@@ -246,6 +331,13 @@ $("#clickSale").click(function(){
   $("#dash").hide();
   $(".home").hide();
   $("#box").hide();
+
+})
+$("#houseSize").click(function(){
+  $(".home").hide();
+  $("#housesize").show();
+  $("#box").hide();
+
 
 })
 
