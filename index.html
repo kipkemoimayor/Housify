@@ -18,7 +18,7 @@
 
 <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <nav id="homepage" class="navbar navbar-expand-lg navbar-dark bg-dark ">
 
           <!-- Navbar brand -->
           <a class="navbar-brand" href="index.html"> <img src="images/logo.png">  </a>
@@ -68,6 +68,72 @@
           <!-- Collapsible content -->
 
         </nav>
+
+        <!-- loggged in navigation starts here -->
+        <div  id="logged"class="">
+
+                <nav  class="navbar navbar-expand-lg navbar-dark bg-dark ">
+
+                  <!-- Navbar brand -->
+                  <a class="navbar-brand" href="index.html"> <img src="images/logo.png">  </a>
+
+                  <!-- Collapse button -->
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+
+                  <!-- Collapsible content -->
+                  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                      <!-- Links -->
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="index.html">Home
+                                  <span class="sr-only">(current)</span>
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="clickLocation" class="nav-link" href="#">Location</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Pricing</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">House by size</a>
+                          </li>
+                          <li class="nav-item">
+                              <a id="clickSale" class="nav-link" href="#">House for Sale</a>
+                          </li>
+
+                          <!-- Dropdown -->
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                          </li>
+
+                      </ul>
+                      <!-- Links -->
+
+                      <form class="form-inline">
+                          <div class="md-form my-0">
+
+                            <span id="logout">  </span> <i class="fas fa-user-alt"></i>  <a href="index.html"><button   class="btn btn-outline-danger my-2 my-sm-0" type="button" name="button">Logout</button></a>
+                          </div>
+                      </form>
+                  </div>
+                  <!-- Collapsible content -->
+
+                </nav>
+                  </div>
+
+
+
+        <!-- logged in navagigation-->
 
         <div class="home">
         <!--/.Navbar-->
@@ -174,7 +240,7 @@
                   <p>Wondering where to find an apartment? Worry not. Find an affordable apartment near you or at your preferred location in Nairobi. Just tap on the button below to get started. <br>
                   A place you can call HOME.</p>
 
-                  <a href="location.html" class="btn btn-pink"><i class="fas fa-clone left"></i> Click to view</a>
+                  <a id="showlocation" class="btn btn-pink"><i class="fas fa-clone left"></i> Click to view</a>
                 </div>
               </div>
 
@@ -255,10 +321,10 @@
               <img src="images/avatar.png" height="300px" class="rounded-circle" alt="account avatar">
             </div>
             <div class="card-body">
-              <h4 class="card-title">Name by login</h4>
+              <h4 id="nameUser" class="card-title">Name by login</h4>
               <hr>
-              <p>Email Adrees</p>
-              <p>Phone no</p>
+              <p id="userEmail">Email Adrees</p>
+              <p id="userPhone">Phone no</p>
             </div>
 
           </div>
@@ -270,7 +336,7 @@
         <div class="container">
 
           <div class="row">
-          
+
 
               <div   class="card hi favourite">
                 <img class="card-img-top" src="images/twobed.jpeg" alt="Card image cap">
@@ -394,6 +460,138 @@
                   <strong>Location</strong> ReceCourse, Lenana Rd <i id="oneb" class="fas fa-heart bg-danger" title="Addto card"></i></p>
                 </div>
               </div>
+
+
+              <!-- location dash starts here-->
+
+
+
+
+                  <div  class="card favourite b">
+                    <img class="card-img-top" src="images/location-images/house-1.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 250,000 Per Month</a></h4>
+                      <p class="card-text">The property enjoys proximity to Village market, UN, Embassy of the United States. Schools include Rosslyn academy.<br>
+                      <strong>Location</strong> Runda, Evergreen Rd <i id="" class="fas fa-heart " title="Addto card"></i> </p>
+                    </div>
+                  </div>
+
+
+                  <div  class="card favourite b1">
+                    <img class="card-img-top" src="images/location-images/living-room.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 100,000 Per Month</a></h4>
+                      <p class="card-text">Comprises of a luxurious 4 bedroom all en-suite villas each with a mature garden on eigth an acre. Friendly community<br>
+                      <strong>Location</strong>  Runda, Gardens Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+                  <div  class="card favourite b2">
+                    <img class="card-img-top" src="images/location-images/main-image.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 80,000 Per Month</a></h4>
+                      <p class="card-text">Executive and stylish five bedroom villa to let in Karen. All bedrooms have in-build wardrobes.Adequate water.<br>
+                      <strong>Location</strong> Karen, Hospital Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+                  <div  class="card favourite b3">
+                    <img class="card-img-top" src="images/location-images/four.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 250,000 Per Month</a></h4>
+                      <p class="card-text">A one bedroom house with clean environment with good security and car park space.
+                        <br>
+                      <strong>Location</strong> RaceCourse, Lenana Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+
+
+                  <div  class="card favourite b4">
+                    <img class="card-img-top" src="images/location-images/twobedroom.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 150,000 Per Month</a></h4>
+                      <p class="card-text">Lovely beautiful modern house with bright light and awesome living spaces. <br>
+                      <strong>Location</strong> Karen, Hill park Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+
+                  <div  class="card favourite b5">
+                    <img class="card-img-top" src="images/location-images/one-bedroom.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 50,000 Per Month</a></h4>
+                      <p class="card-text">Strategically located along Kikuyu Road are these modern 2 bedroom apartments of 14 units to let.<br>
+                      <strong>Location</strong> Kikuyu, Kilome Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+                  <div  class="card favourite b6">
+                    <img class="card-img-top" src="images/bung.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 20,000 Per Month</a></h4>
+                      <p class="card-text">Strategically located along Kikuyu Road are these modern 1 bedroom apartments to let.<br>
+                      <strong>Location</strong> KidFarmco, Kikuyu Rd<i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+                  <div  class="card favourite b7">
+                    <img class="card-img-top" src="images/one1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 45,000 Per Month</a></h4>
+                      <p class="card-text">This home is one of two maisonettes built on half an acre with mature gardens and a small kitchen garden.
+                        <br>   <br>
+                      <strong>Location</strong> Kiambu, Mushroom Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+
+                  <div  class="card favourite b8">
+                    <img class="card-img-top" src="images/location-images/last.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 300,000 Per Month</a></h4>
+                      <p class="card-text">The Residences go beyond what is expected and include lush manicured gardens, lifts, a fully equipped gym. <br>
+                      <strong>Location</strong>  Garden City, Thika Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+
+                  <div   class="card favourite b9">
+                    <img class="card-img-top" src="images/location-images/second-last.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 100,000 Per Month</a></h4>
+                      <p class="card-text">Modern houses, stand alone but shared parking and security guard. <br>
+                      <strong>Location</strong> Utawala, South End Rd <i id="" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+                  <div   class="card favourite b10">
+                    <img class="card-img-top" src="images/location-images/fourth.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 35,000 Per Month</a></h4>
+                      <p class="card-text">4 bedroom all en suite in Mombasa Road Yamin in the park.Sitting on an 1/8 of an acre. <br>
+                      <strong>Location</strong> Cabanas, Mombasa Road<i id="b" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+
+                  <div   class="card favourite b11">
+                    <img class="card-img-top" src="images/location-images/six.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title"><a>KES 75,000 Per Month</a></h4>
+                      <p class="card-text">Very Spacious 4 Bedrooms plus 2 DSQ House in a Gated Community.3 cars parking.
+                        <br>   <br>
+                      <strong>Location</strong> ReceCourse, Lenana Rd <i id="b" class="fas fa-heart " title="Addto card"></i></p>
+                    </div>
+                  </div>
+
+                </div>
+
 
 
           </div>
@@ -595,6 +793,245 @@
 </div>
 </div>
 <!-- house for sale ends here-->
+
+
+
+<!-- Location starts here-->
+<div id="location" class="">
+
+  <div class="background">
+    <div class="overlay1">
+      <br><br><br>
+        <h1 style="color:white">Make you Dreams Count</h1>
+        <h1 style="color:white">Houses to Let</h1>
+
+    </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3">
+
+      <div id="a"  class="card">
+        <img class="card-img-top" src="images/location-images/house-1.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 250,000 Per Month</a></h4>
+          <p class="card-text">The property enjoys proximity to Village market, UN, Embassy of the United States. Schools include Rosslyn academy.<br>
+          <strong>Location</strong> Runda, Evergreen Rd <i id="b" class="fas fa-heart " title="Addto card"></i> </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="a1"  class="card">
+        <img class="card-img-top" src="images/location-images/living-room.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 100,000 Per Month</a></h4>
+          <p class="card-text">Comprises of a luxurious 4 bedroom all en-suite villas each with a mature garden on eigth an acre. Friendly community<br>
+          <strong>Location</strong>  Runda, Gardens Rd <i id="b1" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="a2"  class="card">
+        <img class="card-img-top" src="images/location-images/main-image.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 80,000 Per Month</a></h4>
+          <p class="card-text">Executive and stylish five bedroom villa to let in Karen. All bedrooms have in-build wardrobes.Adequate water.<br>
+          <strong>Location</strong> Karen, Hospital Rd <i id="b2" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div  id="a3" class="card">
+        <img class="card-img-top" src="images/location-images/four.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 250,000 Per Month</a></h4>
+          <p class="card-text">A one bedroom house with clean environment with good security and car park space.
+            <br>
+          <strong>Location</strong> RaceCourse, Lenana Rd <i id="b3" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+
+      <div id="a4"  class="card">
+        <img class="card-img-top" src="images/location-images/twobedroom.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 150,000 Per Month</a></h4>
+          <p class="card-text">Lovely beautiful modern house with bright light and awesome living spaces. <br>
+          <strong>Location</strong> Karen, Hill park Rd <i id="b4" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="a5"  class="card">
+        <img class="card-img-top" src="images/location-images/one-bedroom.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 50,000 Per Month</a></h4>
+          <p class="card-text">Strategically located along Kikuyu Road are these modern 2 bedroom apartments of 14 units to let.<br>
+          <strong>Location</strong> Kikuyu, Kilome Rd <i id="b5" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div  id="a6" class="card">
+        <img class="card-img-top" src="images/bung.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 20,000 Per Month</a></h4>
+          <p class="card-text">Strategically located along Kikuyu Road are these modern 1 bedroom apartments to let.<br>
+          <strong>Location</strong> KidFarmco, Kikuyu Rd<i id="b6" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div  id="a7" class="card">
+        <img class="card-img-top" src="images/one1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 45,000 Per Month</a></h4>
+          <p class="card-text">This home is one of two maisonettes built on half an acre with mature gardens and a small kitchen garden.
+            <br>   <br>
+          <strong>Location</strong> Kiambu, Mushroom Rd <i id="b7" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+
+      <div  id="a8" class="card">
+        <img class="card-img-top" src="images/location-images/last.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 300,000 Per Month</a></h4>
+          <p class="card-text">The Residences go beyond what is expected and include lush manicured gardens, lifts, a fully equipped gym. <br>
+          <strong>Location</strong>  Garden City, Thika Rd <i id="b8" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="a9"  class="card">
+        <img class="card-img-top" src="images/location-images/second-last.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 100,000 Per Month</a></h4>
+          <p class="card-text">Modern houses, stand alone but shared parking and security guard. <br>
+          <strong>Location</strong> Utawala, South End Rd <i id="b9" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-3">
+      <div id="a10"  class="card">
+        <img class="card-img-top" src="images/location-images/fourth.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 35,000 Per Month</a></h4>
+          <p class="card-text">4 bedroom all en suite in Mombasa Road Yamin in the park.Sitting on an 1/8 of an acre. <br>
+          <strong>Location</strong> Cabanas, Mombasa Road<i id="b10" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div  id="a11" class="card">
+        <img class="card-img-top" src="images/location-images/six.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><a>KES 75,000 Per Month</a></h4>
+          <p class="card-text">Very Spacious 4 Bedrooms plus 2 DSQ House in a Gated Community.3 cars parking.
+            <br>   <br>
+          <strong>Location</strong> ReceCourse, Lenana Rd <i id="b11" class="fas fa-heart " title="Addto card"></i></p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+<!-- location ends here-->
+
+<!-- login starts here-->
+<div id="box" class="container">
+  <div class="row">
+
+    <div class="col-md-7">
+      <p>hi take this</p>
+
+    </div>
+    <div class="col-md-5">
+      <div class="box">
+
+        <form id="login-form">
+          <h3>Sign Up</h3>
+          <div class="inputBox">
+            <input type="text" class="firstName" required="">
+            <label for="firstName">Username</label>
+          </div>
+
+          <div class="inputBox">
+            <input type="email" class="email" required="">
+            <label for="email">Email</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" class="password" required="">
+            <label for="firstName">Password</label>
+          </div>
+          <div class="inputBox">
+            <input type="text" class="telephone" required="">
+            <label for="telephone">Tel No.</label>
+          </div>
+          <button id="register" type="submit" class="btn-submit">Sign up</button>
+          <button id="log" type="button" class="btn btn-info">Login</button>
+        </form>
+        <form id="loginUser">
+          <h3>Login</h3>
+          <div class="inputBox">
+            <input type="text" class="firstName" required="">
+            <label for="firstName">Username</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" class="password" required="">
+            <label for="firstName">Password</label>
+          </div>
+          <button id="logn" type="submit" class="btn-submit">Login</button>
+          <button id="regi" type="button" class="btn btn-info">Sign up</button>
+        </form>
+
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+<!--login ends here-->
+
+
+
+
+
+<!-- budget starts here-->
+
+
+
+
+
+<!-- budget ends here-->
 
 
 
