@@ -87,7 +87,60 @@ h1{
 
 }
 #cori img{
-  height: 30rem;
+  height: 40rem;
+}
+
+#pad{
+  padding-top: 10%;
+}
+.carousel-inner{
+    background-color: rgba(0,0,0,0.5);
+    height: 30rem;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 600px;
+}
+
+.captions{
+  font-weight: bolder;
+  font-size: 100%;
+  background-color:rgba(0,0,0,0.3) ;
+  position: absolute;
+  right: 15%;
+  bottom: 180px;
+  left: 15%;
+  z-index: 10;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  color: #fff;
+  text-align: center;
+
+}
+@media only screen and(max-width: 760px)  {
+  .carousel-item{
+    height: 30rem;
+  }
+  .captions{
+    font-style: x-small;
+  }
+#butn:hover{
+  color: black;
+  background-color: #04C6C6;
+}
 
 }
 .carousel-inner{
