@@ -19,12 +19,55 @@
 #drop a:hover{
   color: black;
 }
-h1{
+
+.text1
+{
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: monospace;
+  letter-spacing: 10px;
+  font-size: 60px;
+  color: white;
+}
+.text2
+{
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-top: -50px;
+}
+
+/* this is a style that made text move around. i commented them out bcz of complexity */
+
+/* @keyframes text {
+  0%{
+    color: black;
+    margin-bottom: 40px
+  }
+  30%{
+    letter-spacing: 30px;
+    margin-bottom: 40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+  } */
+
+
+/* this part is the former style of the slogan */
+
+/* h1{
   text-transform: capitalize;
   text-align: center;
   font-weight: 400;
 
-}
+} */
 .zoom p{
   opacity: 0;
 }
@@ -39,13 +82,22 @@ h1{
   transform: scale(1.1);
   box-shadow: 5px 5px 5px black -5px -5px 5px black;
   -webkit-box-shadow:5px 5px 5px black;
-
 }
 .zoom:hover p{
   opacity: 1;
 }
 #h3{
   position: relative;
+}
+
+#icon{
+  font-size: 20px;
+  color: white;
+}
+#image-card{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #card4{
   background-image: url("../images/card4bg.jpg");
@@ -65,9 +117,63 @@ h1{
 
 #house{
   background-color: black;
+
 }
 #cori img{
   height: 40rem;
+}
+
+#pad{
+  padding-top: 10%;
+}
+.carousel-inner{
+    background-color: rgba(0,0,0,0.5);
+    height: 30rem;
+    z-index: 1;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 15%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 600px;
+}
+
+.captions{
+  font-weight: bolder;
+  font-size: 100%;
+  background-color:rgba(0,0,0,0.3) ;
+  position: absolute;
+  right: 15%;
+  bottom: 180px;
+  left: 15%;
+  z-index: 10;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  color: #fff;
+  text-align: center;
+
+}
+@media only screen and(max-width: 760px)  {
+  .carousel-item{
+    height: 30rem;
+  }
+  .captions{
+    font-style: x-small;
+  }
+#butn:hover{
+  color: black;
+  background-color: #04C6C6;
+}
 
 }
 .carousel-inner{
@@ -103,6 +209,34 @@ h1{
   color: #fff;
   text-align: center;
 }
+
+/*.container-fluid
+{
+  padding-top: 3%;
+}
+.card
+{
+  background-color: #fef6ff;
+}
+body{
+  background-color: #fff;
+}*/
+p.card-text
+{
+  opacity: 0;
+  margin-bottom: -50px;
+}
+p.card-text:hover
+{
+  opacity: 1;
+  transition: 1s;
+  margin-bottom: 20px;
+}
+#badar:hover
+{
+  opacity: 0.5;
+}
+
 @media only screen and(max-width: 760px)  {
   .carousel-item{
     height: 800px;
