@@ -129,7 +129,7 @@ h1{
   display: none;
 }
 .box{
-  
+
    top: 30%;
    right: 30%;
    width: 400px;
@@ -215,6 +215,6 @@ h1{
   height: 26.3rem;
 }
 /* login*/
-.refusehide{
-
+#housesize{
+  display: none;
 }
