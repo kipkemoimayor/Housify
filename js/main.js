@@ -1,3 +1,6 @@
+
+//saves password
+var savePassword=[];
 favourites=[];
 function takeId(elt){
    n=elt.id
@@ -10,9 +13,9 @@ $(document).ready(function() {
 
   $("#login-form").submit(function(event) {
     event.preventDefault();
-    var userName=$(".firstName").val();
+    userName=$(".firstName").val();
     var email=$(".email").val();
-    var password=$(".password").val();
+    password=$(".password").val();
     var phone=$(".telephone").val();
     $("#logout").text(userName);
 
@@ -29,10 +32,11 @@ $(document).ready(function() {
 
 
 
-
-
+      savePassword.push(userName,password);
 
   });
+
+
   $("#log").click(function(){
     $("#login-form").hide();
     $("#loginUser").fadeIn(1000);
@@ -46,7 +50,17 @@ $(document).ready(function() {
 
 
   $("#loginUser").submit(function(event){
+    event.preventDefault();
+    if(savePassword[0]==savePassword[0]&& savePassword[1]==savePassword[1]){
 
+        $("#homepage").hide();
+        $("#logged").show();
+        $("#box").hide();
+        $(".home").show();
+
+    }else{
+      alert("wrong password or username")
+    }
   })
 
 
