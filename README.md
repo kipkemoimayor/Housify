@@ -1,4 +1,4 @@
-### Housify Project
+###  ![](/images/logo2.png)Housify Project 
 ### This is a housing information system which is supposed to help users find affordable and convenient housing options from all over Nairobi. (07/03/2019)
 ### Authors
  - [Collins Kipkemoi](https://github.com/kipkemoimayor) - Scrum master.
