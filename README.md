@@ -18,12 +18,12 @@ https://kipkemoimayor.github.io/Housify/
 
 #### Behavior Driven Development(Specifications)
 |  Behavior    | Input    | Output|
-| :------------- | :------------- |:-------------|
+| :------------- | :------------- | :-------------|
 | Login feature       | Click login button|       Login form pops up to fill details   |
 | Allow category selection| Click on 'house by location option'| Redirect to 'locations' page|
 | Take you to home button| Click on home button| Redirects you to main page|
 | Saving homes| Click on heart icon| Adds home to 'saved homes' category|
-| Cards with info| Hover over card| Displays information about house on said card|
+| Cards with info| Hover over card | Displays information about house on said card|
 
 #### Technologies used
 * HTML
@@ -36,12 +36,12 @@ https://kipkemoimayor.github.io/Housify/
 #### Contacts
 Please reach out to us on our contacts below in case of any questions or clarifications:
 | Developer  | Phone Number   | Email address|
-| :------------- | :------------- |:-----------|
-| Collins Kipkemoi       | 0715775170     | collinskipkemoi24@gmail.com|
-| Anthony Njuguna| 0718272469| njuguna13@gmail.com|
-| Adho Adhi| 0748393309| adhoadhigal@gmail.com|
-| Badru Noor| 0710773434| badrubadri92@gmail.com|
-| Sauda Habib| 0714828944| saudababs00@gmail.com|
+| :------------- | :------------- | :-----------|
+| Collins Kipkemoi    | 0715775170     | collinskipkemoi24@gmail.com|
+| Anthony Njuguna | 0718272469| njuguna13@gmail.com|
+| Adho Adhi | 0748393309| adhoadhigal@gmail.com|
+| Badru Noor | 0710773434| badrubadri92@gmail.com|
+| Sauda Habib | 0714828944| saudababs00@gmail.com|
 
 #### Licensing
 MIT License
