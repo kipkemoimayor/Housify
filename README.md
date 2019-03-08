@@ -35,13 +35,14 @@ https://kipkemoimayor.github.io/Housify/
 
 #### Contacts
 Please reach out to us on our contacts below in case of any questions or clarifications:
-| Developer  | Phone Number   | Email address|
-| :------------- | :------------- | :-----------|
-| Collins Kipkemoi    | 0715775170     | collinskipkemoi24@gmail.com|
-| Anthony Njuguna | 0718272469| njuguna13@gmail.com|
-| Adho Adhi | 0748393309| adhoadhigal@gmail.com|
-| Badru Noor | 0710773434| badrubadri92@gmail.com|
-| Sauda Habib | 0714828944| saudababs00@gmail.com|
+
+| Developer  | Phone Number   | Email address |
+|:------------- |:------------- |:-----------|
+| Collins Kipkemoi    | 0715775170   | collinskipkemoi24@gmail.com |
+| Anthony Njuguna | 0718272469| njuguna13@gmail.com |
+| Adho Adhi | 0748393309| adhoadhigal@gmail.com |
+| Badru Noor | 0710773434| badrubadri92@gmail.com |
+| Sauda Habib | 0714828944| saudababs00@gmail.com |
 
 #### Licensing
 MIT License
